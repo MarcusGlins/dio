@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introdução ao HTML</title>
+</head>
+
+<body>
+  <h1 id="topo">A Linguagem HTML</h1>
+  <hr>
+
+  <h2>Índice</h2>
+  <ul>
+    <li><a href="#introducao">Introdução</a></li>
+    <li><a href="#caracteristicas">Características básicas da Linguagem:</a>
+    <li><a href="#atributos">Atributos das Tags HTML</a></li>
+    <li><a href="#textos">Textos</a></li>
+    <li><a href="#listas">Listas</a></li>
+    <li><a href="#links">Links</a></li>
+  </ul>
+
+  <h2 id="introducao">Introdução</h2>
+  <small><a href="#topo">(Voltar)</a></small>
+  <p>
+    <strong>HTML</strong> é a sigla para <em>HyperText Markup Language</em>, que significa Linguagem de Marcação de
+    Hipertexto. Ela serve para
+    criar
+    e organizar o conteúdo de um site, usando tags que definem como cada elemento deve aparecer ou funcionar na página.
+  </p>
+  <p>
+    Essa linguagem não é usada para criar lógica ou algoritmos, mas para estruturar e formatar documentos que podem ter
+    links para outros documentos ou recursos na web.
+    <a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML" target="_blank"
+      title="Clique e saiba mais">
+      <small>(Fonte: developer.mozilla.org)</small>
+    </a>
+  </p>
+
+
+  <h2 id="caracteristicas">Características básicas da Linguagem</h2>
+  <small><a href="#topo">(Voltar)</a></small>
+  <p>
+    HTML é composta por elementos chamados de <strong>tags</strong>, que definem como o conteúdo deve ser apresentado no
+    navegador. No exemplo abaixo temos a <em>tag</em> p, que informa ao navegador que o conteúdo do texto deverá
+    apresentado em formato de parágrafo.
+  </p>
+  <p>
+    <strong>Exemplo:</strong> tag p
+  <pre>
+      &lt;p&gt;
+        Este texto será exibido em formato de parágrafo, portanto, terá uma delimitação específica deste conteúdo dentro <br>da página web.
+      &lt;/p&gt;
+    </pre>
+  </p>
+
+  <h2 id="atributos">Atributos das Tags HTML</h2>
+  <small><a href="#topo">(Voltar)</a></small>
+  <p>
+    As tags HTML podem receber configurações adicionais. Através dos atributos vinculados à tag é possível refinar a
+    formatação do conteúdo a ser exibido.
+  </p>
+  <p>
+    <strong>Exemplo:</strong> atributo id
+  <pre>
+      &lt;p id="paragrafo-principal"&gt;
+        Este parágrafo recebe o atribudo <em>id</em> com o valor "paragrafo-principal", que identifica e o prepara para outras formatações.
+      &lt;/p&gt;
+    </pre>
+  </p>
+
+  <h2 id="textos">Textos</h2>
+  <small><a href="#topo">(Voltar)</a></small>
+  <p>
+    Em HTML exitem algumas formas de se formatar textos, pois a linguagem foi criada com propósito de estruturar textos
+    científicos e exibi-los para comunicação.
+  </p>
+  <p>
+    Inicialmente, temos a formatação dos <strong>títulos</strong> que possui uma hierarquia que hoje tem sido utilizada
+    principalmente para auxiliar leitores de tela na busca de informações. Para exibir um título em HTML utilizamos as
+    tags que são enumeradas de <strong>&lt;h1&gt; a &lt;h6&gt;</strong>, sendo o primeiro considerado o título principal
+    da página e o segundo o último nível de subtítulos. Cada nível de título também possui um tamanho
+    de fonte a
+    ser exibido.
+  </p>
+  <p>
+    <strong>Exemplo:</strong>
+  <pre>
+      &lt;h1&gt;Título Principal&lt;/h1&gt; <em>Possui o maior tamanho de fonte</em>
+      <br>
+      &lt;h2&gt;Subtítulo&lt;/h2&gt; <em>Tamanho de fonte menor que h1</em>
+      <br>
+      &lt;h3&gt;Subtítulo&lt;/h3&gt; <em>Tamanho de fonte menor que h2</em>
+      <br>
+      &lt;h4&gt;Subtítulo&lt;/h4&gt; <em>Tamanho de fonte menor que h3</em>
+      <br>
+      &lt;h5&gt;Subtítulo&lt;/h5&gt; <em>Tamanho de fonte menor que h4</em>
+      <br>
+      &lt;h6&gt;Subtítulo&lt;/h6&gt; <em>Possui o menor tamanho de fonte</em>
+    </pre>
+  </p>
+  <p>
+    A tag p apresentada anteriormente é um dos elementos mais utilizados, servindo com delimitador dos
+    <strong>parágrafos</strong>.
+  </p>
+  <p>
+    <strong>Exemplo:</strong>
+  <pre>
+      &lt;p&gt;
+        Este é o primeiro parágrafo.
+      &lt;/p&gt;
+      &lt;p&gt;
+        Este é o segundo parágrafo.
+      &lt;/p&gt;
+    </pre>
+  </p>
+  <p>
+    A citação de textos científicos é algo muito comum nesse gênero, e como herança dessa primeira finalidade da
+    linguagem temos tag para formatar citações. Que exibe um recuo e destaca o texto na página.
+  </p>
+  <p>
+    <strong>Exemplo:</strong>
+  <pre>
+      &lt;blockquote&gt;
+        Quando acordei hoje de manhã, eu sabia quem eu era, mas acho que já mudei muitas vezes desde então.
+      &lt;/blockquote&gt;
+    </pre>
+  </p>
+
+  <h2 id="listas">Listas</h2>
+  <small><a href="#topo">(Voltar)</a></small>
+  <p>
+    Assim como a formatação de textos é importante, a sumarização de um conteúdo facilita a busca pela informação mais
+    rapidamente. Para isso, a linguagem conta com o recurso das <strong>listas</strong>. Que podem ser apresentadas em
+    dois formatos: de <strong>listas ordenadas</strong> (que são estruturadas com a tag <strong>ol</strong>) e
+    <strong>listas não-ordenadas</strong> (que são estruturadas com a tag <strong>ul</strong>)
+  </p>
+  <p>
+    As listas <em>ordenadas</em> exibem um número de identificação de cada item automaticamente, o que facilita a
+    hierarquização da informação.
+  </p>
+  <p>
+    <strong>Exemplo:</strong>
+  <pre>
+      &lt;ol&gt;
+        &lt;li&gt;Item 1&lt;/li&gt;
+        &lt;li&gt;Item 2&lt;/li&gt;
+        &lt;li&gt;Item 3&lt;/li&gt;
+      &lt;/ol&gt;
+
+      <em>Será exibido:</em>
+    </pre>
+  <ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ol>
+  </p>
+  <p>
+    As listas <em>não-ordenadas</em> não possuem um número de identificação, que hierarquiza a informação. Mas, que pode
+    servir para apresentar a divisão de tópicos (Quando estamos falando de textos, é claro! Sua utilização dentro da
+    linguagem vai muito além).
+  </p>
+  <p>
+    <strong>Exemplo:</strong>
+  <pre>
+      &lt;ul&gt;
+        &lt;li&gt;Item 1&lt;/li&gt;
+        &lt;li&gt;Item 2&lt;/li&gt;
+        &lt;li&gt;Item 3&lt;/li&gt;
+      &lt;/ul&gt;
+
+      <em>Será exibido:</em>
+    </pre>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  </p>
+
+  <h2 id="links">Links</h2>
+  <small><a href="#topo">(Voltar)</a></small>
+  <p>
+    A linguagem HTML incorpora mais dinamismo à apresentação das informações quando nos apropriamos dos
+    <strong>links</strong> que podem ser utilizados para interligar diferentes pontos da página, assim como vincular o
+    conteúdo atual a uma página de outro arquivo. Esta tag trabalha com o atributo <em>href</em> que armazena o endereço
+    externo ao qual está vinculado.
+  </p>
+  <p>
+    <strong>Exemplo:</strong>
+  <pre>
+      &lt;a href="https://www.google.com.br"&gt;Este é um link para o Google&lt;/a&gt;
+      
+      <em>Será exibido:</em>
+    </pre>
+
+  <a href="https://www.google.com.br">Este é um link para o Google</a>
+  </p>
+</body>
+
+</html>
