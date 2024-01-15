@@ -1,0 +1,21 @@
+@import url("./reset.css");
+
+.banner {
+  height: 62.9vh;
+  background: url("../images/background-image.png") no-repeat, radial-gradient(circle,#0a2531, #000000);
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  margin-top: 6vh;
+}
+
+h1 {
+  
+}
