@@ -1,11 +1,16 @@
 @import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,900;1,500&display=swap');
 
 .banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 62.9vh;
   background: url("../images/background-image.png") no-repeat, radial-gradient(circle,#0a2531, #000000);
 }
 
 .banner-content {
+  width: 51vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,5 +22,37 @@
 }
 
 h1 {
-  
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 2.935rem;
+  background: linear-gradient(to bottom,#2b8fb9, #1472B7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 + p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.468rem;
+  text-align: center;
+  color: #FFF;
+}
+
+p + button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14rem;
+  line-height: 1.174rem;
+  text-align: center;
+  color: #31A8DD;
+  width: 32.6vh;
+  height: 5.7vh;
+  background-color: transparent;
+  border-width: 0.125rem;
+  border-image: linear-gradient(to bottom,#2b8fb9, #1472B7) 1;
 }
