@@ -1,12 +1,21 @@
 @import url("./reset.css");
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,900;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+body {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 7.375rem;
+}
 
 .banner {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 62.9vh;
-  background: url("../images/background-image.png") no-repeat, radial-gradient(circle,#0a2531, #000000);
+  background: url("../images/background-image.png") no-repeat, radial-gradient(circle,#06161d, #000000);
+  border-bottom: 1px solid #33A8DB;
+  padding-bottom: 4.0625rem;
 }
 
 .banner-content {
@@ -55,4 +64,54 @@ p + button {
   background-color: transparent;
   border-width: 0.125rem;
   border-image: linear-gradient(to bottom,#2b8fb9, #1472B7) 1;
+}
+
+#course-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+#course-content h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.348125rem;
+  text-transform: uppercase;
+  color: #33A8DB;
+}
+
+#course-content h2 + p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.17375rem;
+  text-align: center;
+  color: #FFF;
+}
+
+#course-content p {
+  width: 50rem;
+}
+
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.module {
+  padding: 1rem 7.9375rem;
+  background-color: #252525;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.17375rem;
+  color: #FFF;
+  border-radius: 3.5625rem;
+}
+
+.module span {
+  color: #33A8DB;
 }
