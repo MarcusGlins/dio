@@ -30,3 +30,13 @@ Este respositório tem como objetivo exibir meu progresso com os desafios propos
 - **Desafios**: *Pensar de maneira não-visual, para que a página se tornasse mais acessível*.
 
 - **Tecnologias utilizadas**: ![Static Badge](https://img.shields.io/badge/HTML5-orange) ![Static Badge](https://img.shields.io/badge/CSS3-blue) ![Static Badge](https://img.shields.io/badge/WAVE-gray)
+
+## Desafio 04 - Primeira Landing Page com HTML e CSS
+
+- **Proposta**: *Desenvolver uma Landing Page baseada em um layout desenvolvido no Figma*.
+
+- **Aprendizados**: *Retirar as informações do Figma e estruturar a página o mais fiel possível ao layout proposto*.
+
+- **Desafios**: *Colocar em prática os conceitos apresentados durante as aulas*.
+
+- **Tecnologias utilizadas**: ![Static Badge](https://img.shields.io/badge/HTML5-orange) ![Static Badge](https://img.shields.io/badge/CSS3-blue)
