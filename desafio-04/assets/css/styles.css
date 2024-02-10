@@ -24,17 +24,20 @@
   --font-uppercase: uppercase;
 }
 
-.body__container {
-  background-color: var(--color-one);
+.align__content {
   display: var(--display-flex);
   flex-direction: var(--direction-column);
+  align-items: var(--align-center);
+}
+
+.body__container {
+  background-color: var(--color-one);
+  align-items: normal;
+  width: 100%;
   gap: 7.375rem;
 }
 
 .banner__container {
-  display: var(--display-flex);
-  flex-direction: var(--direction-column);
-  align-items: var(--align-center);
   height: 62.9vh;
   background: url("../images/background-image.png") no-repeat, radial-gradient(circle,var(--color-two), var(--color-one));
   border-bottom: 1px solid var(--color-three);
@@ -43,9 +46,6 @@
 
 .banner__content {
   width: 51vh;
-  display: var(--display-flex);
-  flex-direction: var(--direction-column);
-  align-items: var(--align-center);
   gap: 2rem;
 }
 
@@ -90,9 +90,6 @@
 }
 
 .section__course {
-  display: var(--display-flex);
-  flex-direction: var(--direction-column);
-  align-items: var(--align-center);
   gap: 1.5rem;
 }
 
@@ -116,8 +113,7 @@
 }
 
 .section__course__modules {
-  display: var(--display-flex);
-  flex-direction: var(--direction-column);
+  align-items: normal;
   gap: 1.5rem;
 }
 
@@ -158,4 +154,48 @@
   text-transform: lowercase;
   text-shadow: 3px 2px var(--color-three);
   color: var(--color-six)
+}
+
+.section__professional {
+  gap: 2rem;
+  margin-top: 10vh;
+  padding-bottom: 10vh;
+  border-bottom: 1px solid var(--color-three);
+}
+
+.section__professional__title {
+  color: var(--color-three);
+  text-transform: var(--font-uppercase);
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-secondary);
+  font-size: 2rem;
+  text-align: center;
+  width: 746px;
+}
+
+.section__professional__paragraph {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-tertiary);
+  font-size: 1rem;
+  text-align: var(--align-center);
+  color: var(--color-six);
+  width: 792px;
+}
+
+.footer__container {
+  gap: 10px
+}
+
+.footer__paragraph {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-tertiary);
+  font-size: 1rem;
+  text-align: var(--align-center);
+  color: var(--color-six);
+  padding-bottom: 90px;
+}
+
+.footer__link {
+  font-weight: var(--font-weight-secondary);
+  color: var(--color-three);
 }
