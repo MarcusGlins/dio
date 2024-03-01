@@ -1,0 +1,51 @@
+@import url(./reset.css);
+
+:root {
+  --gray: #CCCCCC;
+}
+
+.hcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hcontainer__left {
+  display: flex;
+  align-items: center;
+  gap: 3.2vh;
+  margin-left: 2.4vh;
+  padding: 1.6vh 0;
+}
+
+.hcontainer__center {
+  border: 1px solid var(--gray);
+  display: flex;
+  align-items: center;
+  width: 40.4vh;
+  height: 4vh;
+}
+
+.hcontainer__center__search-box {
+  height: 3.8vh;
+  width: 34.8vh;
+  border-color: transparent;
+}
+
+.hcontainer__center__search-button {
+  height: 3.8vh;
+  width: 5.7vh;
+  border-color: transparent;
+  border-left-color: var(--gray);
+  background-image: url("../img/header/search.png");
+  background-repeat: no-repeat;
+  background-position-x: center ;
+  background-position-y: center;
+}
+
+.hcontainer__right {
+  display: flex;
+  align-items: center;
+  gap: 2.4vh;
+  margin-right: 2.4vh;
+}
