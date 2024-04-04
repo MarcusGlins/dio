@@ -40,3 +40,13 @@ Este respositório tem como objetivo exibir meu progresso com os desafios propos
 - **Desafios**: *Colocar em prática os conceitos apresentados durante as aulas*.
 
 - **Tecnologias utilizadas**: ![Static Badge](https://img.shields.io/badge/HTML5-orange) ![Static Badge](https://img.shields.io/badge/CSS3-blue)
+
+## Desafio 05 - Recriar Página do Youtube com HTML e CSS
+
+- **Proposta**: *Reproduzir uma página de exibição semelhante a do YouTube*.
+
+- **Aprendizados**: *Utilização dos conhecimentos aprendidos a respeito de display flex*.
+
+- **Desafio**: *Deixar a página mais próxima possível do layout disponibilizado no Figma*.
+
+- **Tecnologias utilizadas**: ![Static Badge](https://img.shields.io/badge/HTML5-orange) ![Static Badge](https://img.shields.io/badge/CSS3-blue)
