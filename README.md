@@ -1,6 +1,7 @@
 # Desafios DIO
 
 Este respositório tem como objetivo exibir meu progresso com os desafios propostos nas formações da DIO.
+Os Desafios 01 a 05 são desafios de Front-End.
 
 ## Desafio 01 - Introdução ao HTML
 - **Proposta**: *Estruturação básica de uma página web.*
